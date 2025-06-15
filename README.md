@@ -31,3 +31,18 @@ A Spring Boot-based microservice for managing and reconciling trades in a financ
 
 ## 📁 High-Level Design
 
+
+src/
+├── main/
+│ ├── java/com/DBBank/trade/reconciliation/
+│ │ ├── controller/ # REST endpoints
+│ │ ├── service/ # Business logic layer
+│ │ ├── model/ # Entities (Trade, Instrument)
+│ │ ├── repository/ # JPA Repositories
+│ │ ├── config/ # Swagger, Redis, Exception config
+│ │ └── TradeReconciliationApplication.java
+│ └── resources/
+│ ├── application.yml # Profiles (dev, qa, prod)
+│ ├── schema.sql # DDL for PostgreSQL
+│ └── data.sql # Sample data
+
