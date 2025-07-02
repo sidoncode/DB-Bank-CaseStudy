@@ -38,4 +38,3 @@ public class TradeController {
         tradeService.deleteTrade(id);
     }
 }
-
