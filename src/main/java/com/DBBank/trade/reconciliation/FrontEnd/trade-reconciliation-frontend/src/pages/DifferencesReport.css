@@ -1,0 +1,28 @@
+.instrument-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.instrument-table th, .instrument-table td {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+.instrument-table th {
+  background-color: #f4f4f4;
+}
+
+.delete-btn {
+  background-color: #d9534f;
+  color: white;
+  padding: 4px 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.delete-btn:disabled {
+  background-color: #aaa;
+  cursor: not-allowed;
+}

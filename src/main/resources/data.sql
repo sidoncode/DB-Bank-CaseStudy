@@ -16,7 +16,7 @@ INSERT INTO trade (trade_id, instrument, price, quantity, source_system, trade_d
 
 -- Price mismatch
 ('T1002', 'AAPL', 150.00, 10, 'Bloomberg', '2024-06-15'),
-('T1002', 'AAPL', 148.00, 10, 'Reuters', '2024-06-15'),
+('T1002', 'AAPL', 188.00, 10, 'Reuters', '2024-06-15'),
 
 -- Quantity mismatch
 ('T1003', 'GOOGL', 2800.00, 5, 'Bloomberg', '2024-06-15'),

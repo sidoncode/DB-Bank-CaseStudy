@@ -14,12 +14,16 @@ public class Instrument {
 
 
     @Id
+    private long id ;
     private String symbol;
     private String name;
     private String isin;
 
     // Getters and Setters
 
+    public long getId() { return id; }
+
+    public  void setId() { this.id = id; }
 
     public String getSymbol() {
         return symbol;

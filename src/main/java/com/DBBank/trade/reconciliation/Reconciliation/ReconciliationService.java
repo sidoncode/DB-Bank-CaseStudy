@@ -17,10 +17,13 @@ public class ReconciliationService {
     private final ReconciliationDifferenceRepository diffRepo;
 
 
-
     // Return all differences
     public List<ReconciliationDifference> getAllDifferences() {
         return diffRepo.findAll();
+    }
+
+    public List<ReconciliationDifference> getLastestDifferences() {
+        return diffRepo.findByReconciliationRunId(diffRepo.findMaxReconciliationRunId());
     }
 
     public ReconciliationService(TradeRepo tradeRepo,

@@ -7,6 +7,7 @@ import lombok.*;
 @AllArgsConstructor
 public class ReconciliationDifference {
 
+
     public Long getId() {
         return id;
     }

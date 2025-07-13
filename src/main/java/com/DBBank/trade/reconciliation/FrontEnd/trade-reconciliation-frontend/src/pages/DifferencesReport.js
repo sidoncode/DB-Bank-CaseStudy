@@ -11,12 +11,12 @@ const DifferencesReport = () => {
   }, []);
 
   return (
-    <div>
+    <div className="instrument-list-container">
       <h2>Reconciliation Differences</h2>
       {differences.length === 0 ? (
         <p>No differences found. 🎉</p>
       ) : (
-        <table>
+        <table className="instrument-table">
           <thead>
             <tr>
               <th>Trade ID</th>

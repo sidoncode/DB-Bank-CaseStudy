@@ -28,6 +28,11 @@ public class ReconciliationController {
         return ResponseEntity.ok(reconciliationService.getAllDifferences());
     }
 
+    @GetMapping("/latestdifferences")
+    public ResponseEntity<List<ReconciliationDifference>> getLastestDifferences() {
+        return ResponseEntity.ok(reconciliationService.getLastestDifferences());
+    }
+
     // Optional: if you want to fetch by specific run ID
     @GetMapping("/differences/{runId}")
     public ResponseEntity<List<ReconciliationDifference>> getDifferencesByRun(@PathVariable Long runId) {

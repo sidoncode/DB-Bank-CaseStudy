@@ -14,14 +14,14 @@ const ReconciliationDashboard = () => {
   };
 
   return (
-    <div>
+    <div className="instrument-list-container">
       <h2>Reconciliation</h2>
       <button onClick={handleReconcile}>Start Reconciliation</button>
 
       {runId && (
         <>
           <h3>Run ID: {runId}</h3>
-          <table>
+          <table className="instrument-table">
             <thead>
               <tr>
                 <th>Trade ID</th>

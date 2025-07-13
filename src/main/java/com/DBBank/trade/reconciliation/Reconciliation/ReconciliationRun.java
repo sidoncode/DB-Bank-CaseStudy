@@ -7,10 +7,7 @@ import jakarta.persistence.Id;
 
 import java.time.LocalDateTime;
 
-import jakarta.persistence.*;
 import lombok.*;
-
-import java.time.LocalDateTime;
 
 @Entity
 @Data

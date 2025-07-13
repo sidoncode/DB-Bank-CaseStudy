@@ -15,7 +15,6 @@ const Navbar = () => {
         <Link to="/instruments">Instruments</Link>
         <Link to="/reconciliation">Reconciliation</Link>
         <Link to="/reconciliation/differences">Differences</Link>
-        <Link to="/audit">Audit Logs</Link>
       </div>
     </nav>
   );
